@@ -1,0 +1,10 @@
+{
+  "firstname": "Abra",
+  "lastname": "Kadabra",
+  "totalprice": 2,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2019-09-11",
+    "checkout": "2019-09-11"
+  }
+}

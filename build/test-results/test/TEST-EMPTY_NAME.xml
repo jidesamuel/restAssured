@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EMPTY_NAME" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-09T08:21:45" hostname="I-0242F0890D9AD510F" time="2.271">
+  <properties/>
+  <testcase name="I am on booking site http://hotel-test.equalexperts.io" classname="EMPTY_NAME" time="0.002"/>
+  <testcase name="I supply the authorization, Basic YWRtaW46cGFzc3dvcmQxMjM=" classname="EMPTY_NAME" time="0.0"/>
+  <testcase name="I booking a booking" classname="EMPTY_NAME" time="2.231"/>
+  <testcase name="I am able to delete the booking" classname="EMPTY_NAME" time="0.036"/>
+  <testcase name="classMethod" classname="EMPTY_NAME" time="2.28"/>
+  <system-out><![CDATA[Feature: 
+
+  @runit
+  Scenario Outline:  ?[90m# src/test/resources/feature/test.feature:12?[0m
+    ?[36mGiven I am on booking site <baseUrl>?[0m
+    ?[36mWhen I supply the <api>, <key>?[0m
+    ?[36mAnd I <create> a booking?[0m
+    ?[36mThen I am able to delete the booking?[0m
+
+    Examples: 
+
+  @runit
+  Scenario Outline:                                                 ?[90m# src/test/resources/feature/test.feature:20?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

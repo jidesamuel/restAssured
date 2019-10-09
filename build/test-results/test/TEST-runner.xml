@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="I-0242F0890D9AD510F" time="0.0">
+  <properties/>
+  <system-out><![CDATA[    ?[32mGiven ?[0m?[32mI am on booking site ?[0m?[32m?[1mhttp://hotel-test.equalexperts.io?[0m    ?[90m# HotelSteps.iAmOnBookingSiteBaseUrl(String)?[0m
+    ?[32mWhen ?[0m?[32mI supply the ?[0m?[32m?[1mauthorization?[0m?[32m, ?[0m?[32m?[1mBasic YWRtaW46cGFzc3dvcmQxMjM=?[0m ?[90m# HotelSteps.iSupplyTheApiKey(String,String)?[0m
+    ?[32mAnd ?[0m?[32mI ?[0m?[32m?[1mbooking?[0m?[32m a booking?[0m                                         ?[90m# HotelSteps.iCreateABooking(String)?[0m
+    ?[32mThen ?[0m?[32mI am able to delete the booking?[0m                            ?[90m# HotelSteps.iAmAbleToDeleteTheBooking()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m2.472s
+
+]]></system-out>
+  <system-err><![CDATA[Oct 09, 2019 9:21:45 AM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+WARNING: Use deprecated reflections to load ObjectFactory.
+]]></system-err>
+</testsuite>
